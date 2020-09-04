@@ -1,6 +1,6 @@
 {
   "name": "@arcado/arcado-transactions",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Directory with transactions for the Arcado blockchain",
   "main": "dist-node/index.js",
   "scripts": {
@@ -27,7 +27,7 @@
     "typescript": "^3.8.3"
   },
   "bugs": {
-    "url": "https://github.com/arcadonetwork/arcado-transactions/issues"
+    "url": "https://github.com/arcadonetwork/transactions/issues"
   },
-  "homepage": "https://github.com/arcadonetwork/arcado-transactions/issues#readme"
+  "homepage": "https://github.com/arcadonetwork/transactions/issues#readme"
 }
