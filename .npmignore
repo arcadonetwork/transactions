@@ -1,8 +1,16 @@
 .gitignore
 
-src/
 
 tsconfig.tsbuildinfo
 package-lock.json
 tsconfig.json
 .idea/
+
+.env
+.github
+
+README.md
+
+src/
+
+LICENSE
