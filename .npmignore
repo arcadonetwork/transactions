@@ -1,0 +1,8 @@
+.gitignore
+
+src/
+
+tsconfig.tsbuildinfo
+package-lock.json
+tsconfig.json
+.idea/

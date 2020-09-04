@@ -1,0 +1,33 @@
+{
+  "name": "@arcado/arcado-transactions",
+  "version": "0.1.0",
+  "description": "Decentralized Gaming universe",
+  "main": "src/index.ts",
+  "scripts": {
+    "prebuild": "rm -r dist-node | rm tsconfig.tsbuildinfo | mkdir dist-node | true",
+    "build": "tsc",
+    "build:check": "node -e \"require('./dist-node')\""
+  },
+  "keywords": [
+    "Lisk",
+    "Node.js",
+    "blockchain"
+  ],
+  "author": "Arcado Network",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "@liskhq/lisk-cryptography": "2.4.2",
+    "@liskhq/lisk-transactions": "3.0.2",
+    "dotenv": "8.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^13.7.1",
+    "ts-node": "^8.9.1",
+    "tsconfig-paths": "^3.9.0",
+    "typescript": "^3.8.3"
+  },
+  "bugs": {
+    "url": "https://github.com/arcadonetwork/arcado-transactions/issues"
+  },
+  "homepage": "https://github.com/arcadonetwork/arcado-transactions/issues#readme"
+}
